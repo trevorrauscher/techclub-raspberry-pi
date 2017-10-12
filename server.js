@@ -6,6 +6,11 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
+// reply to request with "Hello World!"
+app.get('/charlie', function (req, res) {
+  res.send('He is a special child. -_-');
+});
+
 //start a server on port 80 and log its start to our console
 var server = app.listen(80, function () {
 
