@@ -17,7 +17,7 @@ app.get('/luca', function (req, res) {
 });
 
 // reply to request with "Hello World!"
-app.get('/ Trevor', function (req, res) {
+app.get('/Trevor', function (req, res) {
   res.send('Is better than Charlie 👍');
 });
 
