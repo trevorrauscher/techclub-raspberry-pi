@@ -18,7 +18,7 @@ app.get('/luca', function (req, res) {
 
 // reply to request with "Hello World!"
 app.get('/Trevor', function (req, res) {
-  res.send('Is better than Charlie 👍');
+  res.send('Trevor Rauscher');
 });
 
 //start a server on port 80 and log its start to our console
